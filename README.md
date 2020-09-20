@@ -106,7 +106,7 @@ with json
 ```
 message {
     "user": "Bob",
-    "time": "14:53 Uhr",
+    "time": "14:53",
     "message": "hello"
 }
 ```
