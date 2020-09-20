@@ -1,0 +1,88 @@
+body {
+    font-family: "Helvetica";
+    color: black;
+    font-size: 1.2rem;
+}
+h1 {
+    text-align: center;
+    font-size: 150%;
+}
+h2 {
+    text-align: left;
+    font-size: 110%;
+    padding-left: 1rem;
+}
+h3 {
+    font-size: 80%;
+    font-weight: 800;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    text-align: right;
+}
+.centerbox {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+.center {
+    text-align: center;
+}
+.chathistory {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: solid #aaaaaa 0.05rem;
+    border-radius: 0.5rem;
+}
+.message {
+    margin-bottom: 0.5rem;
+    padding: 0.7rem;
+    border: solid #888888 0.07rem;
+    border-radius: 0.5rem;
+}
+.message-text {
+    text-align: left;
+    margin: 0;
+    font-size: 90%;
+}
+.messageinputfield {
+    display: grid;
+    width: 100%;
+    height: 4rem;
+    vertical-align: top;
+    font-family: sans-serif;
+}
+.btn {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    background-color: forestgreen;
+    color: white;
+    border-color: black;
+    border-radius: 0.5rem;
+}
+.btn:active {
+    background-color: darkgreen;
+}
+.btn:disabled {
+    background-color: grey
+}
+.btnSend {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: forestgreen;
+    color: white;
+    border-color: black;
+    border-radius: 1rem;
+}
+.btnSend:active {
+    background-color: darkgreen;
+}
+.btnSend:disabled {
+    background-color: grey
+}
+.username {
+    text-align: center;
+    color: blue;
+    margin: 0;
+}

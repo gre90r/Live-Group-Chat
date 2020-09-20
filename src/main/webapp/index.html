@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title>Live Group Chat</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="chatapp.js"></script>
+        <script src="websocket.js"></script>
+    </head>
+    <body class="centerbox">
+        <h1>Live Group Chat</h1>
+        <section id="myname">
+            <h2>My name</h2>
+            <div class="center" id="username-input">
+                <span>Name: </span>
+                <input type="text" id="username" placeholder="Please enter a name" />
+                <button class="btn" onclick="setUsername();">Set name</button>
+            </div>
+        </section>
+        <section class="chathistory" id="chathistory">
+            <h2>Chat</h2>
+            <article class="message">
+                <h3>Bob 14:53</h3>
+                <p class="message-text">hello</p>
+            </article>
+            <article class="message">
+                <h3>Clair 14:53</h3>
+                <p class="message-text">hello</p>
+            </article>
+        </section>
+        <section>
+            <h2>Write message</h2>
+            <textarea id="usermessage" class="messageinputfield" ></textarea>
+            <button class="btnSend" id="btnSend" onclick="sendMessage();" disabled>Send</button>
+        </section>
+    </body>
+</html>
